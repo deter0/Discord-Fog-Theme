@@ -8,17 +8,9 @@
  * @updateUrl https://github.com/deter0/Discord-Fog-Theme/blob/main/EmojiReplace.theme.css
  */
  
-/* For apple emojis */
+/* For apple emojis
+Comment out the following line to disable apple emojis */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
-
-.scroller-2LSbBU {
-	height: 100vh;
-	padding-bottom: 75px;
-}
-
-.appMount-3lHmkl {
-	position: relative;
-}
 
 .appMount-3lHmkl::before {
 	content: "";
@@ -31,12 +23,25 @@
 	filter: blur(148px);
 }
 
+.scroller-2LSbBU {
+	height: 100vh;
+	padding-bottom: 75px;
+}
+
+.appMount-3lHmkl {
+	position: relative;
+}
+
 .form-2fGMdU {
 	width: calc(100% - 30px) !important;
 	height: fit-content !important;
 	background-color: rgba(0, 0, 0, .4);
 	backdrop-filter: blur(12px);
-	padding-bottom: 30px;
+	padding-bottom: 36px;
+}
+
+.base-gE7OpD .cooldownWrapper-3joyFc {
+	margin-bottom: 7px;
 }
 
 .scrollerContent-WzeG7R {
@@ -129,7 +134,7 @@
 .channelTextArea-rNsIhG {
 	background-color: transparent !important;
 	margin-bottom: 10px;
-	transform: translateY(35%);
+	transform: translateY(15px);
 }
 
 .form-2fGMdU {
@@ -146,7 +151,7 @@
 	background: transparent !important;
 }
 
-.wrapper-3NnKdC, .wrapper-3NnKdC, .tree-2wKJdG, .app-1q1i1E, .mobileApp-13Vx-n, .bg-h5JY_x, .container-3w7J-x, .chat-3bRxxu {
+.scroller-zPkAnE, .wrapper-3NnKdC, .wrapper-3NnKdC, .tree-2wKJdG, .app-1q1i1E, .mobileApp-13Vx-n, .bg-h5JY_x, .container-3w7J-x, .chat-3bRxxu {
 	background-color: transparent !important;
 	background: transparent !important;
 }
@@ -160,8 +165,8 @@
 }
 
 .scroller-1Bvpku, .contentWrapper-SvZHNd {
-	background-color: rgba(0, 0, 0, .6);
-	backdrop-filter: brightness(0.5) blur(40px);
+	background-color: rgba(0, 0, 0, .5);
+	backdrop-filter: brightness(0.5) blur(4px);
 }
 
 .inspector-S2gM3e {
@@ -169,10 +174,10 @@
 }
 
 .inner-3ErfOT {
-	background-color: rgba(255, 255, 255, .2);
+	background-color: rgba(255, 255, 255, .08);
 	backdrop-filter: brightness(0.5) blur(40px);
 	padding-left: 8px !important;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 
 .input-1Rv96N {
@@ -187,7 +192,7 @@
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
-.actionButton-uPB8Fs {
+.actionButton-uPB8Fs, .searchBar-3dMhjb {
 	background-color: rgba(0, 0, 0, .2) !important;
 }
 
@@ -197,7 +202,9 @@
 
 .wrapper-1-Fsb8 {
 	border-radius: 0px 0px 8px 8px;
-	transform: translateY(0px) translateZ(0)
+	transform: translateY(0px) translateZ(0);
+	backdrop-filter: blur(3px);
+	transform: translateZ(0) scaleZ(1);
 }
 
 .sidebar-2K8pFh {
@@ -215,7 +222,6 @@
 
 .chatContent-a9vAAp {
 	background-color: #202225e5;
-	/* backdrop-filter: brightness(0.75) blur(40px); */
 }
 
 .chat-3bRxxu {
@@ -262,8 +268,8 @@
 }
 
 .root-1gCeng:nth-child(1) {
-	background-color: rgba(66, 66, 66, 0.4);
-	backdrop-filter: blur(10px);
+	background-color: rgba(66, 66, 66, 0.12);
+	backdrop-filter: blur(6px);
 }
 
 .theme-dark .footer-2gL1pp {
@@ -309,4 +315,97 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+}
+
+.quickswitcher-3JagVE {
+	background-color: rgba(0, 0, 0, .1);
+	backdrop-filter: blur(14px);
+}
+
+.quickswitcher-3JagVE, .quickswitcher-3JagVE * {
+	transition: background 0.1s;
+}
+
+.input-2VB9rf {
+	background-color: rgba(50, 50, 50, .4);
+}
+
+.unread-1xRYoj {
+	backdrop-filter: blur(4px);
+	background-color: rgba(24, 24, 24);
+	transition: opacity 0.2s;
+}
+
+.wrapper-2jXpOf {
+	transition: 0.5s;
+}
+
+.typing-2GQL18 {
+	margin-bottom: 3px !important;
+}
+
+.content-c_0cLD, .wrapper-39oAo3 {
+	transform: translateY(5px);
+}
+
+.emojiItemMedium-_WAwGB {
+	transition: background 0.1s;
+}
+
+.member-3-YXUe {
+	transition: color 0.1s;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+	transition: filter 0.15s ease-out;
+	transform: translateZ(0) perspective(0);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+	filter: drop-shadow(0px 0px 6px hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%));
+	background-color: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%) !important;
+}
+
+.top-28JiJ- .item-PXvHYJ {
+	transition: color 0.1s;
+}
+
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ {
+	transition: border 0.2s;
+	border-bottom: 2px solid transparent;
+}
+
+.app-2rEoOp button {
+	transition: background 0.2s;
+}
+
+.container-lRFx4q, .theme-dark .inset-3sAvek {
+	background: transparent !important;
+}
+
+.nowPlayingColumn-2sl4cE {
+	background: rgba(0, 0, 0, .5) !important;
+}
+
+.itemCard-v9viV7 {
+	transition: background .15s;
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.section-2gLsgF {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.expandedFolderBackground-1cujaW {
+	background-color: rgba(80, 80, 80, .2) !important;
+}
+
+.popoutContainer-1MXdqN {
+	background-color: rgba(0, 0, 0, .2) !important;
+	backdrop-filter: blur(6px) brightness(2);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+	background-color: rgba(150, 150, 150, .7) !important;
+	backdrop-filter: blur(6px) brightness(2);
 }
