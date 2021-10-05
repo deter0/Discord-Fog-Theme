@@ -1,0 +1,306 @@
+/**
+ * @name Discord Frosted Glass
+ * @description A frosted glass theme for discord
+ * @author Deter
+ * @version 1.0.0
+ * @authorId 668914854026805269
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace/
+ * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css
+ */
+ 
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+
+.scroller-2LSbBU {
+	height: 100vh;
+	padding-bottom: 75px;
+}
+
+.appMount-3lHmkl {
+	position: relative;
+}
+
+.appMount-3lHmkl::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+	background-image: url('https://imgr.search.brave.com/m6W1MFsbWRaoShjchZKwecJXuuiDNiIkzQqjF8FQb6c/fit/1200/1200/ce/1/aHR0cHM6Ly93YWxs/cGFwZXJzaG9tZS5j/b20vaW1hZ2VzL3dh/bGxwYXBlcnMvZm9y/ZXN0LTM4NDB4MjE2/MC01ay00ay13YWxs/cGFwZXItOGstbWlz/dC1oaWxscy1mb2ct/NjUwNS5qcGc') !important;
+	background-size: 100vw 100vh;
+	filter: blur(148px);
+}
+
+.form-2fGMdU {
+	width: calc(100% - 30px) !important;
+	height: fit-content !important;
+	background-color: rgba(0, 0, 0, .4);
+	backdrop-filter: blur(12px);
+	padding-bottom: 30px;
+}
+
+.scrollerContent-WzeG7R {
+	padding-bottom: 0px;
+}
+
+.button-3AYNKb {
+	transition: transform 0.12s;
+	transform: scale(1) translateZ(0);
+}
+
+.button-3AYNKb:hover {
+	transform: scale(1.1);
+}
+
+.scrollableContainer-2NUZem, .content-1o0f9g {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.userPopout-xaxa6l, .input-2_SIlA, .role-2irmRk, .menu-3sdvDG, .wrapper-2aW0bm, .container-enaOkj {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	backdrop-filter: blur(12px);
+	transform: perspective(0) scale(1) translateZ(0);
+	box-shadow: 0 0 14px 0 rgba(0, 0, 0, .4);
+}
+
+.role-2irmRk {
+	background-color: rgba(150, 150, 150, 0.25) !important;
+	box-shadow: 0 0 14px 0 rgba(0, 0, 0, .2);
+}
+
+.channelHeader-3Gd2xq {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 0px 14px;
+}
+
+.collapseButton-2ZsEjz {
+	margin-left: 14px;
+}
+
+.tertiary-aMXF0g, .header-2-Imhb, .header-2-Imhb .tab-ck0077, .embedFull-2tM8--, .markup-2BOw-j code, .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+	background-color: rgba(150, 150, 150, .1);
+}
+
+.channelHeader-3Gd2xq, .messages-3G3erD {
+	background-color: rgba(0, 0, 0, .2);
+	backdrop-filter: blur(12px);
+	border-radius: 8px;
+}
+
+.bodyInnerWrapper-26fQXj, .footer-3UKYOU {
+	background-color: transparent !important;
+}
+
+.layer-v9HyYc {
+	border-radius: 14px;
+}
+
+.chatContent-a9vAAp,.hiddenMembers-2dcs_q {
+	height: 100vh;
+}
+
+.content-yTz4x3 {
+	transform: translateY(-50px);
+	height: 100vh;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+	background-color: #17181bb2;
+	background: #222429e3;
+	backdrop-filter: blur(12px);
+	height: 53px;
+	transform: perspective(0) scale(1) translateZ(0);
+}
+
+.list-donH_Z, .scroller-1JbKMe {
+	background: transparent;
+}
+
+.privateChannels-1nO12o, .searchBar-6Kv8R2 {
+	background: transparent;
+	background-color: transparent;
+}
+
+.members-1998pB {
+	padding-top: 38px;
+}
+
+.channelTextArea-rNsIhG {
+	background-color: transparent !important;
+	margin-bottom: 10px;
+	transform: translateY(35%);
+}
+
+.form-2fGMdU {
+	transform: translateY(1px) scaleX(99.8%);
+	transform-origin: 0% 50%;
+}
+
+.form-2fGMdU::before {
+	display: none;
+}
+
+.app-2rEoOp, .app-2rEoOp {
+	background-color: transparent !important;
+	background: transparent !important;
+}
+
+.wrapper-3NnKdC, .wrapper-3NnKdC, .tree-2wKJdG, .app-1q1i1E, .mobileApp-13Vx-n, .bg-h5JY_x, .container-3w7J-x, .chat-3bRxxu {
+	background-color: transparent !important;
+	background: transparent !important;
+}
+
+.app-1q1i1E {
+	backdrop-filter: blur(12px);
+}
+
+.wrapper-1-Fsb8 {
+	background-color: rgba(0, 0, 0, 0.7)
+}
+
+.scroller-1Bvpku, .contentWrapper-SvZHNd {
+	background-color: rgba(0, 0, 0, .6);
+	backdrop-filter: brightness(0.5) blur(40px);
+}
+
+.inspector-S2gM3e {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.inner-3ErfOT {
+	background-color: rgba(255, 255, 255, .2);
+	backdrop-filter: brightness(0.5) blur(40px);
+	padding-left: 8px !important;
+	justify-content: flex-end;
+}
+
+.input-1Rv96N {
+	width: 120%;
+}
+
+.theme-dark .container-1D34oG {
+	background: transparent;
+}
+
+.tabBody-3YRQ8W {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.actionButton-uPB8Fs {
+	background-color: rgba(0, 0, 0, .2) !important;
+}
+
+.circleIconButton-1QV--U {
+	background-color: rgba(42, 42, 42, 1) !important;
+}
+
+.wrapper-1-Fsb8 {
+	border-radius: 0px 0px 8px 8px;
+	transform: translateY(0px) translateZ(0)
+}
+
+.sidebar-2K8pFh {
+	background-color: rgba(0, 0, 0, .75);
+	backdrop-filter: brightness(0.4) blur(40px);
+	transform: scaleX(1.004);
+	transform-origin: 0% 0%;
+}
+
+.panels-j1Uci_ {
+	background-color: rgba(24, 24, 24, .4);
+	/* backdrop-filter: brightness(0.5) blur(40px); */
+	height: 81px;
+}
+
+.chatContent-a9vAAp {
+	background-color: #202225e5;
+	/* backdrop-filter: brightness(0.75) blur(40px); */
+}
+
+.chat-3bRxxu {
+	transform: scaleY(101%);
+}
+
+.container-3baos1 {
+	height: 71px;
+}
+
+.hiddenMembers-2dcs_q {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.members-1998pB, .members-1998pB>div {
+	background: transparent;
+}
+
+.hljs-addition, .hljs-keyword, .hljs-selector-tag {
+	color: #9bb078;
+	font-style: italic;
+}
+
+.hljs-built_in, .hljs-deletion {
+	color: #b06698;
+	font-weight: bold;
+}
+
+.hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
+	color: #ebc17a;
+}
+
+.body-r6_QPy, .topSection-y3p-_D {
+	background-color: rgba(36, 36, 36, .4) !important;
+	backdrop-filter: blur(12px);
+}
+
+.theme-dark {
+	background: transparent !important;
+}
+
+.root-1gCeng:nth-child(1) {
+	background-color: rgba(66, 66, 66, 0.4);
+	backdrop-filter: blur(10px);
+}
+
+.theme-dark .footer-2gL1pp {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.newMessagesBar-265mhP {
+	transform: translateY(50px);
+}
+
+.content-yTz4x3:before {
+	display: none;
+}
+
+.messagesPopoutWrap-1MQ1bW {
+	background-color: rgba(0, 0, 0, .4);
+	backdrop-filter: blur(4px);
+}
+
+.messageGroupWrapper-o-Zw7G {
+	background-color: rgba(50, 50, 50, .4);
+	backdrop-filter: blur(24px);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+code {
+	font-family: 'JetBrains Mono', monospace;
+	font-variant-ligatures: historical-ligatures;
+}
+
+.theme-dark .children-19S4PO:after {
+	display: none;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
