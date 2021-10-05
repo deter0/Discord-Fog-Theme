@@ -8,6 +8,7 @@
  * @updateUrl https://github.com/deter0/Discord-Fog-Theme/blob/main/EmojiReplace.theme.css
  */
  
+/* For apple emojis */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 
 .scroller-2LSbBU {
@@ -24,7 +25,8 @@
 	position: absolute;
 	top: 0; left: 0;
 	width: 100%; height: 100%;
-	background-image: url('https://imgr.search.brave.com/m6W1MFsbWRaoShjchZKwecJXuuiDNiIkzQqjF8FQb6c/fit/1200/1200/ce/1/aHR0cHM6Ly93YWxs/cGFwZXJzaG9tZS5j/b20vaW1hZ2VzL3dh/bGxwYXBlcnMvZm9y/ZXN0LTM4NDB4MjE2/MC01ay00ay13YWxs/cGFwZXItOGstbWlz/dC1oaWxscy1mb2ct/NjUwNS5qcGc') !important;
+	/* Change the image url for the color scheme to be effected */
+	background-image: url("https://wallpapercave.com/wp/AUCdJPq.jpg") !important;
 	background-size: 100vw 100vh;
 	filter: blur(148px);
 }
@@ -240,6 +242,10 @@
 .hljs-built_in, .hljs-deletion {
 	color: #b06698;
 	font-weight: bold;
+}
+
+.hljs-bullet, .hljs-link, .hljs-meta, .hljs-meta .hljs-keyword, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-subst, .hljs-symbol {
+	color: #b06698;
 }
 
 .hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
