@@ -18,14 +18,14 @@ Comment out the following line to disable apple emojis */
 	top: 0; left: 0;
 	width: 100%; height: 100%;
 	/* Change the image url for the color scheme to be effected */
-	background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1802/Trees-forest-fog_3840x2160.jpg") !important;
+	background-image: url("https://w.wallhaven.cc/full/qd/wallhaven-qdljkr.jpg") !important;
 	background-size: 100vw 100vh;
 	filter: blur(28px);
 }
 
 .scroller-2LSbBU {
-	height: 100vh;
-	padding-bottom: 75px;
+	height: 100%;
+	padding-bottom: 0;
 }
 
 .appMount-3lHmkl {
@@ -35,7 +35,7 @@ Comment out the following line to disable apple emojis */
 .form-2fGMdU {
 	width: calc(100% - 30px) !important;
 	height: fit-content !important;
-	background-color: rgba(0, 0, 0, .4);
+	background-color: rgba(0, 0, 0, .2);
 	
 	transform: translateZ(0) scaleZ(1) prespective(0);
 	backdrop-filter: blur(12px);
@@ -152,7 +152,7 @@ Comment out the following line to disable apple emojis */
 	display: none;
 }
 
-.app-2rEoOp, .app-2rEoOp {
+.app-2rEoOp, .app-2rEoOp, .appMount-3lHmkl, body {
 	background-color: transparent !important;
 	background: transparent !important;
 }
@@ -231,7 +231,7 @@ Comment out the following line to disable apple emojis */
 	/* 
 	transform: translateZ(0) scaleZ(1) prespective(0);
 	backdrop-filter: brightness(0.5) blur(40px); */
-	height: 81px;
+	min-height: 81px;
 }
 
 .chatContent-a9vAAp {
